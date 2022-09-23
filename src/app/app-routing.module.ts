@@ -6,7 +6,7 @@ import { ListComponent } from './list/list.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'signup',
     component: SignupComponent
   },
   {
@@ -14,7 +14,7 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
-    path: 'list',
+    path: '',
     component: ListComponent
   }
 ];
