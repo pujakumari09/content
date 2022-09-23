@@ -1,0 +1,24 @@
+<div class="container_reg">
+    <h2>Login</h2>
+<div class="register">
+    <form [formGroup]="loginForm" (submit)="submit()">
+        <div class="field_data">
+            <mat-form-field>
+                <mat-label>
+                    Username
+                </mat-label>
+                <input formControlName="email" matInput placeholder="Email" required>
+            </mat-form-field>
+            <mat-form-field class="password">
+                <mat-label>
+                    Password
+                </mat-label>
+                <input formControlName="password" matInput placeholder="Password" required>
+            </mat-form-field>
+        </div>
+        <div class="reg_button">
+            <button mat-raised-button color="primary">Login</button>
+        </div>
+    </form>
+</div>
+</div>
